@@ -1,0 +1,52 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: config-client
+  cloud:
+    nacos:
+      config:
+        serverAddr: localhost:8848
+        group: DEV
+        namespace: ProjectAAA
+        username: nacos
+        password: nacos
+        sharedConfigs[0]:
+          dataId: common-db.properties
+          group: DEV
+          refresh: true
+        extensionConfigs[0]:
+          dataId: config-application.properties
+          group: DEV
+          refresh: true
+
+
+
+
+management:
+  server:
+    port: 8000
+  endpoints:
+    web:
+      #      base-path: / #默认是/actuator 前缀，可以在这里修改
+      exposure:
+        include: "*"  #打开全部请求端点
+#        include: refresh,health,info #打开部分
+
+
+
+#yusp:
+ # config:
+  #  serverAddr: localhost:8848
+    # prefix: gateway-application
+    # file-extension: properties
+   # group: DEV
+    #namespace: ProjectAAA
+    #username: nacos
+    #password: nacos
+
+
+#config:
+ # listener:
+  #  data01: gateway-application
+   # keys: key1,key2

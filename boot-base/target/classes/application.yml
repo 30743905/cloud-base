@@ -1,0 +1,5 @@
+spring:
+  application:
+    yml:
+      k1: 111
+      k2: 222

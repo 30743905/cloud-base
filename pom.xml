@@ -10,11 +10,22 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>cloud-eureka</module>
+        <module>cloud-nacos</module>
+        <module>spring-test</module>
+        <module>config-base</module>
+        <module>config-client</module>
+        <module>config-apollo</module>
+        <module>boot-base</module>
+        <module>zk-base</module>
+        <module>common-base</module>
+        <module>task-base</module>
+        <module>retry-base</module>
     </modules>
 
     <properties>
         <spring-boot.version>2.2.7.RELEASE</spring-boot.version>
         <spring-cloud.version>Hoxton.RELEASE</spring-cloud.version>
+        <spring-cloud-alibaba.version>2.2.1.RELEASE</spring-cloud-alibaba.version>
     </properties>
 
     <dependencyManagement>
@@ -32,6 +43,13 @@
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
                 <version>${spring-cloud.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>${spring-cloud-alibaba.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>

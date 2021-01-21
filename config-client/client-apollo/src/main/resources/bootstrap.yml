@@ -1,0 +1,23 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: config-client
+
+
+app:
+  id: Project-Yusp
+
+apollo:
+  meta: http://192.168.251.240:9001
+  modifiedBy: apollo
+  env: DEV
+  bootstrap:
+    enabled: true # 是否开启 Apollo 配置预加载功能。默认为 false。
+    eagerLoad:
+      enable: true # 是否开启 Apollo 支持日志级别的加载时机。默认为 false。
+    namespaces: test01,test02.json # 使用的 Apollo 的命名空间，默认为 application。
+  portal:
+    url: http://192.168.251.240:9003
+  open-api:
+    token: 17d1e55c4c999ab88ba9b4dbd8b7e4b44a68b69d

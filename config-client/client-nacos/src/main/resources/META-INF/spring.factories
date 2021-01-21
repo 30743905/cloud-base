@@ -1,0 +1,5 @@
+org.springframework.context.ApplicationListener=\
+  org.simon.config.boot.ApplicationListenerTest
+
+org.springframework.context.ApplicationContextInitializer=\
+  org.simon.config.boot.ApplicationContextInitializerTest
