@@ -20,7 +20,8 @@ public class RetryService implements IRetryService{
 
     @Retryable(/*interceptor = "myInterceptor", *//*value = Exception.class, *//*maxAttempts = 3,*/
             /*maxAttemptsExpression = "#{@testService01.getMax()}",*/
-            backoff = @Backoff(delay = 2000, multiplier = 1.5, maxDelay = 5000)
+            backoff = @Backoff(delay = 2000, multiplier = 1.5, maxDelay = 5000),
+            label = "t111"
             /*exceptionExpression = "@exceptionChecker.shouldRetry(#root)",*/
             /*listeners = "retryListener01"*/)
     //@Retryable(interceptor = "myInterceptor")

@@ -6,6 +6,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.retry.annotation.EnableRetry;
+import org.springframework.retry.stats.StatisticsListener;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -26,6 +27,9 @@ public class RetryApplication {
         IRetryService retryService = cxt.getBean(IRetryService.class);
         log.info("retryService:{}", retryService.getClass());
         retryService.retryTestService();
+
+        StatisticsListener statisticsListener = cxt.getBean(StatisticsListener.class);
+        System.out.println(statisticsListener);
     }
 
 }

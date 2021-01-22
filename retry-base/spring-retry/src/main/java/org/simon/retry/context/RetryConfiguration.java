@@ -5,6 +5,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.retry.interceptor.RetryInterceptorBuilder;
 import org.springframework.retry.interceptor.RetryOperationsInterceptor;
 import org.springframework.retry.interceptor.StatefulRetryOperationsInterceptor;
+import org.springframework.retry.stats.DefaultStatisticsRepository;
+import org.springframework.retry.stats.StatisticsListener;
 
 /**
  * 你搞忘写注释了
@@ -21,6 +23,12 @@ public class RetryConfiguration {
         return RetryInterceptorBuilder.stateless()
                 .backOffOptions(1000, 2, 5000)
                 .maxAttempts(5).build();
+    }
+
+    @Bean
+    public StatisticsListener statisticsListener(){
+        DefaultStatisticsRepository repository = new DefaultStatisticsRepository();
+        return new StatisticsListener(repository);
     }
 
 }
