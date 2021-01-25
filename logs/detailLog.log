@@ -1,10 +1,145 @@
-[2021-01-22 10:05:18.103][INFO][main][StartupInfoLogger:logStarting:55][] Starting RetryApplication using Java 1.8.0_212 on PS20190709MKED with PID 3936 (D:\temp\cloud-base\retry-base\spring-retry\target\classes started by Admin in D:\temp\cloud-base)
-[2021-01-22 10:05:18.107][INFO][main][SpringApplication:logStartupProfileInfo:660][] No active profile set, falling back to default profiles: default
-[2021-01-22 10:05:18.770][INFO][main][DirectJDKLog:log:173][] Initializing ProtocolHandler ["http-nio-8080"]
-[2021-01-22 10:05:18.771][INFO][main][DirectJDKLog:log:173][] Starting service [Tomcat]
-[2021-01-22 10:05:18.771][INFO][main][DirectJDKLog:log:173][] Starting Servlet engine: [Apache Tomcat/9.0.41]
-[2021-01-22 10:05:18.830][INFO][main][DirectJDKLog:log:173][] Initializing Spring embedded WebApplicationContext
-[2021-01-22 10:05:19.059][INFO][main][DirectJDKLog:log:173][] Starting ProtocolHandler ["http-nio-8080"]
-[2021-01-22 10:05:19.082][INFO][main][StartupInfoLogger:logStarted:61][] Started RetryApplication in 1.229 seconds (JVM running for 2.552)
-[2021-01-22 10:05:19.083][INFO][main][RetryApplication:main:28][] retryService:class org.simon.retry.service.RetryService$$EnhancerBySpringCGLIB$$84e964d1
-[2021-01-22 10:05:19.092][INFO][main][RetryService:retryTestService:28][] begin=========>
+[2021-01-25 17:35:49.898][INFO][main][StartupInfoLogger:logStarting:55][] Starting RetryApplication using Java 1.8.0_212 on PS20190709MKED with PID 22272 (D:\temp\cloud-base\retry-base\spring-retry\target\classes started by Admin in D:\temp\cloud-base)
+[2021-01-25 17:35:49.902][INFO][main][SpringApplication:logStartupProfileInfo:660][] No active profile set, falling back to default profiles: default
+[2021-01-25 17:35:50.489][INFO][main][DirectJDKLog:log:173][] Initializing ProtocolHandler ["http-nio-8080"]
+[2021-01-25 17:35:50.490][INFO][main][DirectJDKLog:log:173][] Starting service [Tomcat]
+[2021-01-25 17:35:50.490][INFO][main][DirectJDKLog:log:173][] Starting Servlet engine: [Apache Tomcat/9.0.41]
+[2021-01-25 17:35:50.563][INFO][main][DirectJDKLog:log:173][] Initializing Spring embedded WebApplicationContext
+[2021-01-25 17:35:50.764][INFO][main][DirectJDKLog:log:173][] Starting ProtocolHandler ["http-nio-8080"]
+[2021-01-25 17:35:50.783][INFO][main][StartupInfoLogger:logStarted:61][] Started RetryApplication in 1.157 seconds (JVM running for 1.831)
+[2021-01-25 17:35:50.792][INFO][main][CircuitBreakerService:normalMethod:24][] ======== normalMethod ======== t1
+[2021-01-25 17:35:50.793][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:36:57.240][INFO][main][StartupInfoLogger:logStarting:55][] Starting RetryApplication using Java 1.8.0_212 on PS20190709MKED with PID 21808 (D:\temp\cloud-base\retry-base\spring-retry\target\classes started by Admin in D:\temp\cloud-base)
+[2021-01-25 17:36:57.242][INFO][main][SpringApplication:logStartupProfileInfo:660][] No active profile set, falling back to default profiles: default
+[2021-01-25 17:36:57.772][INFO][main][DirectJDKLog:log:173][] Initializing ProtocolHandler ["http-nio-8080"]
+[2021-01-25 17:36:57.772][INFO][main][DirectJDKLog:log:173][] Starting service [Tomcat]
+[2021-01-25 17:36:57.772][INFO][main][DirectJDKLog:log:173][] Starting Servlet engine: [Apache Tomcat/9.0.41]
+[2021-01-25 17:36:57.832][INFO][main][DirectJDKLog:log:173][] Initializing Spring embedded WebApplicationContext
+[2021-01-25 17:36:58.015][INFO][main][DirectJDKLog:log:173][] Starting ProtocolHandler ["http-nio-8080"]
+[2021-01-25 17:36:58.032][INFO][main][StartupInfoLogger:logStarted:61][] Started RetryApplication in 1.017 seconds (JVM running for 1.64)
+[2021-01-25 17:36:58.041][INFO][main][CircuitBreakerService:normalMethod:24][] ======== normalMethod ======== t1
+[2021-01-25 17:36:58.042][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:36:58.549][INFO][main][CircuitBreakerService:normalMethod:24][] ======== normalMethod ======== t1
+[2021-01-25 17:36:58.549][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:36:59.052][INFO][main][CircuitBreakerService:normalMethod:24][] ======== normalMethod ======== t1
+[2021-01-25 17:36:59.052][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:36:59.553][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:00.067][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:00.569][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:01.071][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:01.575][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:02.080][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:02.586][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:03.087][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:03.590][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:04.104][INFO][main][CircuitBreakerService:normalMethod:24][] ======== normalMethod ======== t1
+[2021-01-25 17:37:04.104][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:04.614][INFO][main][CircuitBreakerService:normalMethod:24][] ======== normalMethod ======== t1
+[2021-01-25 17:37:04.614][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:05.118][INFO][main][CircuitBreakerService:normalMethod:24][] ======== normalMethod ======== t1
+[2021-01-25 17:37:05.118][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:05.623][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:06.128][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:06.628][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:07.132][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:07.636][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:08.137][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:08.651][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:09.155][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:09.663][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:10.168][INFO][main][CircuitBreakerService:normalMethod:24][] ======== normalMethod ======== t1
+[2021-01-25 17:37:10.168][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:10.672][INFO][main][CircuitBreakerService:normalMethod:24][] ======== normalMethod ======== t1
+[2021-01-25 17:37:10.672][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:11.180][INFO][main][CircuitBreakerService:normalMethod:24][] ======== normalMethod ======== t1
+[2021-01-25 17:37:11.180][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:11.686][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:12.195][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:12.702][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:13.205][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:13.710][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:14.215][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:14.720][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:15.226][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:15.727][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:16.230][INFO][main][CircuitBreakerService:normalMethod:24][] ======== normalMethod ======== t1
+[2021-01-25 17:37:16.230][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:16.745][INFO][main][CircuitBreakerService:normalMethod:24][] ======== normalMethod ======== t1
+[2021-01-25 17:37:16.745][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:17.245][INFO][main][CircuitBreakerService:normalMethod:24][] ======== normalMethod ======== t1
+[2021-01-25 17:37:17.245][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:17.749][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:18.263][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:18.766][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:19.268][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:19.782][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:20.296][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:20.811][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:21.315][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:21.819][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:22.320][INFO][main][CircuitBreakerService:normalMethod:24][] ======== normalMethod ======== t1
+[2021-01-25 17:37:22.320][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:22.826][INFO][main][CircuitBreakerService:normalMethod:24][] ======== normalMethod ======== t1
+[2021-01-25 17:37:22.826][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:23.331][INFO][main][CircuitBreakerService:normalMethod:24][] ======== normalMethod ======== t1
+[2021-01-25 17:37:23.331][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:23.834][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:24.344][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:24.853][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:25.357][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:25.860][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:26.366][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:26.870][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:27.377][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:27.890][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:28.398][INFO][main][CircuitBreakerService:normalMethod:24][] ======== normalMethod ======== t1
+[2021-01-25 17:37:28.398][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:28.912][INFO][main][CircuitBreakerService:normalMethod:24][] ======== normalMethod ======== t1
+[2021-01-25 17:37:28.912][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:29.417][INFO][main][CircuitBreakerService:normalMethod:24][] ======== normalMethod ======== t1
+[2021-01-25 17:37:29.417][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:29.924][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:30.439][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:30.943][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:31.448][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:31.951][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:32.455][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:32.964][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:33.470][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:33.974][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:34.477][INFO][main][CircuitBreakerService:normalMethod:24][] ======== normalMethod ======== t1
+[2021-01-25 17:37:34.477][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:34.981][INFO][main][CircuitBreakerService:normalMethod:24][] ======== normalMethod ======== t1
+[2021-01-25 17:37:34.981][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:35.485][INFO][main][CircuitBreakerService:normalMethod:24][] ======== normalMethod ======== t1
+[2021-01-25 17:37:35.485][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:35.988][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:36.493][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:36.999][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:37.507][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:38.008][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:38.514][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:39.020][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:39.525][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:40.032][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:40.536][INFO][main][CircuitBreakerService:normalMethod:24][] ======== normalMethod ======== t1
+[2021-01-25 17:37:40.536][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:41.041][INFO][main][CircuitBreakerService:normalMethod:24][] ======== normalMethod ======== t1
+[2021-01-25 17:37:41.041][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:41.546][INFO][main][CircuitBreakerService:normalMethod:24][] ======== normalMethod ======== t1
+[2021-01-25 17:37:41.546][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:42.051][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:42.565][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:43.071][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:43.577][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:44.082][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:44.584][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:45.091][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:45.597][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:46.102][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:46.605][INFO][main][CircuitBreakerService:normalMethod:24][] ======== normalMethod ======== t1
+[2021-01-25 17:37:46.605][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:47.110][INFO][main][CircuitBreakerService:normalMethod:24][] ======== normalMethod ======== t1
+[2021-01-25 17:37:47.110][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:47.616][INFO][main][CircuitBreakerService:normalMethod:24][] ======== normalMethod ======== t1
+[2021-01-25 17:37:47.616][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
+[2021-01-25 17:37:48.123][INFO][main][CircuitBreakerService:recoverMethod:34][] ======== recoverMethod ======== t1
